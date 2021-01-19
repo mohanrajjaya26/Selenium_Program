@@ -16,6 +16,7 @@ public class Absolute_x_path {
 				"//div[@id='search']/div/div[2]/div/span[3]/div[2]/div[20]/div/span/div/div/div[2]/div/div/div/span/a/div/img"));
 		redmi_ph.click();
 		driver.close();
+		System.out.println("here");
 		
 	}
 	}
