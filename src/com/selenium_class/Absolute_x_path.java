@@ -9,7 +9,6 @@ public class Absolute_x_path {
 	public static void main(String[] args) {
 
 		System.setProperty("webdriver.chrome.driver", "C:\\Users\\ELCOT\\eclipse-workspace\\Selenium_Concept\\Driver\\chromedriver.exe");
-
 		WebDriver driver = new ChromeDriver();
 		driver.get("https://www.amazon.in/s?k=mobile&ref=nb_sb_noss");
 		driver.manage().window().maximize();
@@ -19,5 +18,4 @@ public class Absolute_x_path {
 		driver.close();
 		
 	}
-
-}
+	}
